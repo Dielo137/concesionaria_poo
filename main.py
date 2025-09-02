@@ -3,7 +3,6 @@ from concesionaria import Concesionaria
 from vehiculo import Auto, Moto, Camion
 
 
-
 if __name__ == "__main__":
 
     print(" Iniciando sistema de la concesionaria...")

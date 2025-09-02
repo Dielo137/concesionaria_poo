@@ -18,7 +18,6 @@ class Vehiculo:
         return f"Vehiculo marca {self.marca}, modelo {self.modelo}"
     
 
-
 class Auto(Vehiculo):
     
     def __init__(self,marca,modelo,precio,puertas):
@@ -28,7 +27,6 @@ class Auto(Vehiculo):
     def descripcion(self):
         return f"Auto marca {self.marca}, modelo {self.modelo}, con {self.puertas}"
     
-
 class Moto(Vehiculo):
 
     def __init__(self,marca,modelo,precio,cilindrada):
@@ -46,4 +44,3 @@ class Camion(Vehiculo):
 
     def descripcion(self):
         return f"Camion marca {self.marca}, modelo {self.modelo}, con {self.capacidad_carga}"
-    
