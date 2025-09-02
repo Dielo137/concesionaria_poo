@@ -9,7 +9,7 @@ Una aplicación simple de consola para demostrar los pilares de la Programación
 *   **Encapsulamiento** 
 *   **Clases y Objetos** 
 
-## Ejecución 🚀
+## Ejecución 
 
 1.  Clona este repositorio.
 2.  Abre una terminal en la carpeta del proyecto.
