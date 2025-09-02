@@ -18,6 +18,6 @@ Una aplicación simple de consola para demostrar los pilares de la Programación
     python main.py
     ```
 
-## Stack 💻
+## Stack 
 
 *   Puro Python 3  (sin aditivos ni frameworks).
