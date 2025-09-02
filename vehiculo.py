@@ -16,3 +16,34 @@ class Vehiculo:
     
     def descripcion(self):
         return f"Vehiculo marca {self.marca}, modelo {self.modelo}"
+    
+
+
+class Auto(Vehiculo):
+    
+    def __init__(self,marca,modelo,precio,puertas):
+        super().__init__(marca,modelo,precio)
+        self.puertas = puertas
+
+    def descripcion(self):
+        return f"Auto marca {self.marca}, modelo {self.modelo}, con {self.puertas}"
+    
+
+class Moto(Vehiculo):
+
+    def __init__(self,marca,modelo,precio,cilindrada):
+        super().__init__(marca,modelo,precio)
+        self.cilindrada = cilindrada
+
+    def descripcion(self):
+        return f"Moto marca {self.marca}, modelo {self.modelo}, con {self.cilindrada}"
+    
+class Camion(Vehiculo):
+
+    def __init__(self,marca,modelo,precio,capacidad_carga):
+        super().__init__(marca,modelo,precio)
+        self.capacidad_carga = capacidad_carga
+
+    def descripcion(self):
+        return f"Camion marca {self.marca}, modelo {self.modelo}, con {self.capacidad_carga}"
+    
