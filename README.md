@@ -1,6 +1,6 @@
 # Sistema de Concesionaria POO
 
-Una aplicación simple de consola para demostrar los pilares de la Programación Orientada a Objetos (POO) sin morir de aburrimiento con teoría rancia. Laboratorio 1 para el ramo de Backend.
+Una aplicación simple de consola para demostrar los pilares de la Programación Orientada a Objetos (POO). Laboratorio 1 para el ramo de Backend.
 
 ## Conceptos Clave Aplicados 
 
